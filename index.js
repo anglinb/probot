@@ -64,6 +64,7 @@ module.exports = (options = {}) => {
     server,
     webhook,
     receive,
+    logger,
 
     start() {
       server.listen(options.port);
